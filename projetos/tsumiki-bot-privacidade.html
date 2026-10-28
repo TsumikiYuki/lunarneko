@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de Privacidade · Tsumiki Bot</title>
+  <meta name="description" content="Como o Tsumiki Bot coleta, utiliza, armazena e protege as informações dentro do Discord.">
+  <link rel="canonical" href="https://tsumikiyuki.github.io/lunarneko/projetos/tsumiki-bot-privacidade.html">
+  <meta property="og:site_name" content="Lunar Neko">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Política de Privacidade · Tsumiki Bot">
+  <meta property="og:description" content="Como o Tsumiki Bot coleta, utiliza, armazena e protege as informações dentro do Discord.">
+  <meta property="og:url" content="https://tsumikiyuki.github.io/lunarneko/projetos/tsumiki-bot-privacidade.html">
+  <meta property="og:image" content="https://tsumikiyuki.github.io/lunarneko/assets/projetos/tsumiki-bot.jpg">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@lunarnekogames">
+  <meta name="twitter:title" content="Política de Privacidade · Tsumiki Bot">
+  <meta name="twitter:description" content="Como o Tsumiki Bot coleta, utiliza, armazena e protege as informações dentro do Discord.">
+  <meta name="twitter:image" content="https://tsumikiyuki.github.io/lunarneko/assets/projetos/tsumiki-bot.jpg">
+  <meta name="theme-color" content="#07050c">
+  <link rel="icon" href="../assets/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <canvas id="sky" aria-hidden="true"></canvas>
+
+  <header class="nav" id="nav">
+    <a class="brand" href="../index.html" aria-label="Lunar Neko, início">
+      <img src="../assets/logo-simbolo.png" alt="" width="52" height="30">
+      <span>Lunar Neko</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="nav-links" id="navLinks">
+      <a href="tsumiki-bot.html">Tsumiki Bot</a>
+      <a href="../index.html#projetos">Outros projetos</a>
+      <a href="https://discord.gg/G4x75J5" class="nav-cta" target="_blank" rel="noopener">Suporte</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="project-hero legal-hero">
+      <div class="container narrow">
+        <a class="back-link" href="tsumiki-bot.html">← Voltar para o Tsumiki Bot</a>
+        <p class="eyebrow">🛡 Tsumiki Bot</p>
+        <h1 class="project-title legal-title">Política de Privacidade</h1>
+        <p class="project-lead">Este documento descreve como o Tsumiki coleta, utiliza, armazena e protege as informações dentro do Discord.</p>
+        <p class="legal-updated">Última atualização: 16 de setembro de 2026</p>
+      </div>
+    </section>
+
+    <section class="section-tight legal-section">
+      <div class="container narrow">
+        <div class="legal-note">
+          O aplicativo não substitui a Política de Privacidade do Discord, aplicando-se estritamente aos dados processados por suas funcionalidades internas.
+        </div>
+
+        <nav class="legal-toc" aria-label="Seções">
+          <a href="#identificacao">1. Identificação e suporte</a>
+          <a href="#dados">2. Dados coletados pelo Discord</a>
+          <a href="#mensagens">3. Mensagens e conteúdo</a>
+          <a href="#perfil">4. Perfil e economia virtual</a>
+          <a href="#rpg">5. RPG e jogos</a>
+          <a href="#social">6. Sistema social e Tinder</a>
+          <a href="#memes">7. Memes e envio de arquivos</a>
+          <a href="#apis">8. APIs e serviços de terceiros</a>
+          <a href="#nao-faz">9. O que o Tsumiki não faz</a>
+          <a href="#lgpd">10. Retenção, direitos e exclusão (LGPD)</a>
+        </nav>
+
+        <article class="legal">
+          <section id="identificacao">
+            <h2><span>1</span>Identificação e suporte</h2>
+            <p>O Tsumiki é desenvolvido por Tsumiki / TsumikiYuki.</p>
+            <p>Dúvidas, correções ou pedidos de exclusão de dados podem ser feitos no <a href="https://discord.gg/G4x75J5" target="_blank" rel="noopener">servidor oficial de suporte</a> ou pelo e-mail <a href="mailto:tsumikiprofissional@gmail.com">tsumikiprofissional@gmail.com</a>.</p>
+          </section>
+
+          <section id="dados">
+            <h2><span>2</span>Dados coletados pelo Discord</h2>
+            <p>Quando estritamente necessário para responder a comandos ou manter sistemas, o bot processa:</p>
+            <ul>
+              <li>IDs (usuário, servidor, canais);</li>
+              <li>Apelidos, tags e nomes públicos;</li>
+              <li>Imagens públicas de perfil/avatar.</li>
+            </ul>
+          </section>
+
+          <section id="mensagens">
+            <h2><span>3</span>Mensagens e conteúdo</h2>
+            <p>O bot não monitora e nem armazena conversas privadas ou gerais. Mensagens e argumentos são lidos temporariamente em memória apenas para a execução imediata do comando ou jogo solicitado.</p>
+          </section>
+
+          <section id="perfil">
+            <h2><span>4</span>Perfil e economia virtual</h2>
+            <p>Dados salvos para preservação do progresso do usuário:</p>
+            <ul>
+              <li>Nível, XP, biografia, títulos e cores;</li>
+              <li>Saldos virtuais, carteira e portfólios;</li>
+              <li>Garagem, veículos e itens colecionáveis.</li>
+            </ul>
+            <p class="legal-alert">⚠ A economia é 100% virtual e não possui valor monetário real.</p>
+          </section>
+
+          <section id="rpg">
+            <h2><span>5</span>RPG e jogos</h2>
+            <p>Para manter o progresso contínuo, salvamos atributos de ficha, raça, classe, equipamentos, cristais e inventário. Jogos casuais e partidas em andamento utilizam dados mantidos apenas em memória volátil.</p>
+          </section>
+
+          <section id="social">
+            <h2><span>6</span>Sistema social e Tinder (opcional)</h2>
+            <p>Utilizado somente se o usuário optar por criar um perfil social:</p>
+            <ul>
+              <li>Nome exibido, idade, localidade (cidade/UF) e bio;</li>
+              <li>Foto/mídia e interesses informados;</li>
+              <li>Histórico de curtidas, superlikes e matches.</li>
+            </ul>
+            <p class="legal-alert">Não divulgue em seu perfil informações que não queira tornar públicas.</p>
+          </section>
+
+          <section id="memes">
+            <h2><span>7</span>Memes e envio de arquivos</h2>
+            <p>Mídias enviadas a comandos específicos (como memes ou cards) podem ser hospedadas em serviços externos parceiros, registrando autor, servidor e data do envio. Não envie arquivos com dados pessoais sigilosos.</p>
+          </section>
+
+          <section id="apis">
+            <h2><span>8</span>APIs e serviços de terceiros</h2>
+            <p>Determinadas funções consultam serviços externos autorizados (Steam, animes/mangás, tradução, previsão do tempo). Tais consultas apenas repassam o termo de busca estritamente necessário.</p>
+          </section>
+
+          <section id="nao-faz">
+            <h2><span>9</span>O que o Tsumiki <em>não</em> faz</h2>
+            <ul class="legal-checks">
+              <li>Não vende dados de usuários;</li>
+              <li>Não gera perfis publicitários para venda;</li>
+              <li>Nunca solicita senhas, e-mails privados ou tokens;</li>
+              <li>Não cria bancos de histórico geral de mensagens de servidores.</li>
+            </ul>
+          </section>
+
+          <section id="lgpd">
+            <h2><span>10</span>Retenção, direitos e exclusão (LGPD)</h2>
+            <p>Os dados permanecem salvos enquanto a conta estiver ativa nos sistemas ou conforme obrigações técnicas de segurança.</p>
+            <p>Em conformidade com a LGPD, você tem o direito de solicitar a confirmação, o acesso ou a exclusão completa dos seus dados do banco do bot abrindo um ticket no <a href="https://discord.gg/G4x75J5" target="_blank" rel="noopener">servidor oficial</a> com o seu ID.</p>
+          </section>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Tsumiki · Privacidade e Proteção de Dados</p>
+    <p class="footer-small"><a href="tsumiki-bot.html">Tsumiki Bot</a> · <a href="../index.html">Lunar Neko</a></p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>

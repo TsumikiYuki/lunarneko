@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tsumiki Bot · Lunar Neko</title>
+  <meta name="description" content="Tsumiki Bot: o bot de Discord da Lunar Neko com duelos PvP, minijogos, ship, busca de animes do Mal Traduzido e muito mais.">
+  <link rel="canonical" href="https://tsumikiyuki.github.io/lunarneko/projetos/tsumiki-bot.html">
+  <meta property="og:site_name" content="Lunar Neko">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tsumiki Bot · Lunar Neko">
+  <meta property="og:description" content="Tsumiki Bot: o bot de Discord da Lunar Neko com duelos PvP, minijogos, ship, busca de animes do Mal Traduzido e muito mais.">
+  <meta property="og:url" content="https://tsumikiyuki.github.io/lunarneko/projetos/tsumiki-bot.html">
+  <meta property="og:image" content="https://tsumikiyuki.github.io/lunarneko/assets/projetos/tsumiki-bot.jpg">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@lunarnekogames">
+  <meta name="twitter:title" content="Tsumiki Bot · Lunar Neko">
+  <meta name="twitter:description" content="Tsumiki Bot: o bot de Discord da Lunar Neko com duelos PvP, minijogos, ship, busca de animes do Mal Traduzido e muito mais.">
+  <meta name="twitter:image" content="https://tsumikiyuki.github.io/lunarneko/assets/projetos/tsumiki-bot.jpg">
+  <meta name="theme-color" content="#07050c">
+  <link rel="icon" href="../assets/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <canvas id="sky" aria-hidden="true"></canvas>
+
+  <header class="nav" id="nav">
+    <a class="brand" href="../index.html" aria-label="Lunar Neko, início">
+      <img src="../assets/logo-simbolo.png" alt="" width="52" height="30">
+      <span>Lunar Neko</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#recursos">Recursos</a>
+      <a href="#comandos">Comandos</a>
+      <a href="#atualizacoes">Atualizações</a>
+      <a href="../index.html#projetos">Outros projetos</a>
+      <a href="https://discord.com/api/oauth2/authorize?client_id=826428423219052584&amp;permissions=27648&amp;scope=bot%20applications.commands" class="nav-cta" target="_blank" rel="noopener">Adicionar</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- TOPO DO PROJETO -->
+    <section class="project-hero">
+      <div class="container">
+        <a class="back-link" href="../index.html#projetos">← Voltar aos projetos</a>
+        <div class="project-hero-grid">
+          <div class="project-avatar">
+            <img src="../assets/projetos/tsumiki-bot.jpg" alt="Avatar do Tsumiki Bot" width="735" height="735">
+          </div>
+          <div class="project-hero-text">
+            <div class="pill-row">
+              <span class="pill">Bot de Discord</span>
+              <span class="pill pill-ok">Lançado</span>
+              <span class="pill">Versão 8.0.1</span>
+            </div>
+            <h1 class="project-title">Tsumiki Bot</h1>
+            <p class="project-lead">Bot com jogos diferentes, a Tsumiki é um bot que você não viu ainda! 🌸</p>
+            <div class="hero-actions left">
+              <a class="btn btn-primary" href="https://discord.com/api/oauth2/authorize?client_id=826428423219052584&amp;permissions=27648&amp;scope=bot%20applications.commands" target="_blank" rel="noopener">Adicionar ao Discord</a>
+              <a class="btn btn-ghost" href="https://top.gg/bot/826428423219052584" target="_blank" rel="noopener">Ver no Top.gg</a>
+            </div>
+            <ul class="mini-stats">
+              <li><strong>23</strong><span>servidores</span></li>
+              <li><strong>5,0 ★</strong><span>no Top.gg</span></li>
+              <li><strong>24/7</strong><span>online</span></li>
+              <li><strong>15+</strong><span>comandos de utilidade</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE O BOT -->
+    <section class="section section-tight">
+      <div class="container narrow reveal">
+        <p class="eyebrow">✦ Sobre</p>
+        <h2>Diversão de verdade para o seu servidor</h2>
+        <p class="body-lg">A maioria dos bots oferece moderação, música e comandos básicos. O Tsumiki Bot nasceu para fazer algo diferente: criar diversão, competição e interação real entre os membros do seu servidor.</p>
+        <p class="body-lg">Transforme seu servidor em um lugar onde sempre existe algo para fazer.</p>
+      </div>
+    </section>
+
+    <!-- RECURSOS -->
+    <section class="section section-tight" id="recursos">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">✦ Recursos exclusivos</p>
+          <h2>O que só a Tsumiki faz</h2>
+        </div>
+        <div class="features">
+          <article class="feature reveal">
+            <span class="feature-icon" aria-hidden="true">⚔️</span>
+            <h3>Duelo multiplayer</h3>
+            <p>Enfrente outros jogadores em batalhas estratégicas usando ações e defesa em tempo real. Um dos sistemas de PvP mais completos em bots brasileiros.</p>
+          </article>
+          <article class="feature reveal">
+            <span class="feature-icon" aria-hidden="true">🇯🇵</span>
+            <h3>Animes do Mal Traduzido</h3>
+            <p>O único bot brasileiro capaz de encontrar animes usando os nomes do famoso site Mal Traduzido. Procurou pelo nome errado? A Tsumiki entende.</p>
+          </article>
+          <article class="feature reveal">
+            <span class="feature-icon" aria-hidden="true">💕</span>
+            <h3>Sistema de ship</h3>
+            <p>Descubra a compatibilidade entre membros e crie momentos engraçados para a comunidade.</p>
+          </article>
+          <article class="feature reveal">
+            <span class="feature-icon" aria-hidden="true">🎲</span>
+            <h3>Coleção de minijogos</h3>
+            <p>Blackjack (21), Forca, Quiz, Trivia, Adivinhação, Pedra-Papel-Tesoura, Par ou Ímpar, Caça-Níquel e muito mais.</p>
+          </article>
+          <article class="feature reveal">
+            <span class="feature-icon" aria-hidden="true">🎭</span>
+            <h3>Interações entre usuários</h3>
+            <p>Beijos, abraços, tapas, carinho e outras formas de interação para movimentar o chat.</p>
+          </article>
+          <article class="feature reveal">
+            <span class="feature-icon" aria-hidden="true">🌦️</span>
+            <h3>Informações úteis</h3>
+            <p>Clima, informações de usuários e servidores, banners, avatares, perfis da Steam, livros e muito mais.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMANDOS -->
+    <section class="section section-tight" id="comandos">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">✦ Grimório Neko</p>
+          <h2>Comandos de informações e utilidades</h2>
+          <p>Consultas, estatísticas, perfis e dados gerais. Digite <code>.help &lt;comando&gt;</code> no Discord para ver os argumentos completos.</p>
+        </div>
+        <div class="commands reveal">
+          <div class="command"><code>.help</code><p>Central interativa de feitiços do Grimório Neko, ou as instruções de uso de um comando específico.</p></div>
+          <div class="command"><code>.steam</code><p>Consulte jogos na loja ou exiba perfis estilizados da Comunidade Steam com papéis de parede, insígnias e contadores.</p></div>
+          <div class="command"><code>.mal</code><p>Pesquise animes e mangás com sinopse em português, capas HD, trailer e navegador de temporadas integrado.</p></div>
+          <div class="command"><code>.book</code><p>Pesquisa livros na Open Library com sinopse traduzida, capas em alta definição e seleção interativa.</p></div>
+          <div class="command"><code>.gamer</code><p>Perfil de um jogador em vários jogos: Valorant, osu!, Honkai: Star Rail, Brawlhalla, Genshin, LoL, Minecraft, Roblox, Chess.com, Lichess, Dota 2 e Overwatch 2.</p></div>
+          <div class="command"><code>.userinfo</code><p>Ficha digital completa de um usuário com badges, cargos, permissões, conexões, multimídia e economia.</p></div>
+          <div class="command"><code>.serverinfo</code><p>Ficha detalhada do servidor atual com estatísticas de membros, canais, boosts e links de mídia.</p></div>
+          <div class="command"><code>.upscale</code><p>Aprimora e dobra a resolução de uma imagem (2x) com filtro de nitidez direto na memória.</p></div>
+          <div class="command"><code>.weather</code><p>Mostra a temperatura de determinada região.</p></div>
+          <div class="command"><code>.server</code><p>Mostra os servidores em que a Tsumiki está presente, com páginas navegáveis.</p></div>
+          <div class="command"><code>.ping</code><p>Mostra a latência.</p></div>
+          <div class="command"><code>.uptime</code><p>Mostra há quanto tempo o bot está ligado.</p></div>
+          <div class="command"><code>.politica</code><p>Exibe a Política de Privacidade e Tratamento de Dados do bot. <a class="inline-link" href="tsumiki-bot-privacidade.html">Ler aqui →</a></p></div>
+          <div class="command"><code>.termos</code><p>Exibe os Termos de Uso, Política de Operação e Governança do bot.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ATUALIZAÇÕES -->
+    <section class="section section-tight" id="atualizacoes">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">✦ Diário de desenvolvimento</p>
+          <h2>Atualizações</h2>
+          <p>A Tsumiki não para de crescer. Veja o que mudou em cada versão.</p>
+        </div>
+        <ol class="timeline reveal">
+          <li>
+            <h3>Versão 8.0.1 <small>Mais recente</small></h3>
+            <p><strong class="tl-label">Novidades</strong></p>
+            <ul>
+              <li><b>Ship:</b> vários novos GIFs no estilo Orkut para deixar os resultados mais divertidos.</li>
+              <li><b>Meme:</b> sistema completamente reformulado, agora funciona como uma comunidade.</li>
+              <li><b>Profile:</b> novo comando para visualizar o perfil de usuários.</li>
+              <li><b>Investidor:</b> novo comando para investir na bolsa de valores, ainda em testes para a futura economia do bot.</li>
+            </ul>
+            <p><strong class="tl-label">Melhorias</strong></p>
+            <ul>
+              <li>Serverinfo e Userinfo agora exibem muito mais informações.</li>
+              <li>O <code>.steam</code> agora busca informações em português, incluindo jogadores ativos.</li>
+              <li>O comando Help foi totalmente aprimorado para facilitar a navegação.</li>
+              <li>Upscale voltou a funcionar (ainda precisa de alguns ajustes).</li>
+            </ul>
+            <p><strong class="tl-label">Correções</strong></p>
+            <ul>
+              <li>O <code>.mal</code> finalmente foi corrigido após a troca da API utilizada.</li>
+            </ul>
+          </li>
+          <li>
+            <h3>Versão 7.0</h3>
+            <ul>
+              <li><b>Host 24/7:</b> agora a Tsumiki fica online o tempo todo, 24 horas por dia, 7 dias por semana.</li>
+              <li><b>Duelo reformulado:</b> grande atualização visual e de gameplay. Cada jogador só pode se defender 3 vezes seguidas (adeus partidas travadas!), as informações foram reorganizadas, o design ficou mais bonito e intuitivo, e uma mensagem de status mostra o resultado completo no final.</li>
+              <li><b>Novo comando Steam:</b> busque informações de jogos direto da Steam.</li>
+              <li><b>Anime:</b> otimizações internas e melhor desempenho na busca do MyAnimeList.</li>
+              <li><b>Userinfo:</b> visual renovado, com informações mais organizadas.</li>
+              <li><b>Otimizações gerais:</b> código reorganizado, remoção de processos desnecessários e mais estabilidade.</li>
+            </ul>
+          </li>
+          <li>
+            <h3>Versão 6.0</h3>
+            <ul>
+              <li>🤗 <b>Hug</b> e 🐾 <b>Pat</b> consertados: abraços e cafunés funcionando certinho.</li>
+              <li>💕 <b>Ship:</b> visual melhorado para shippar crushes de forma mais bonitinha.</li>
+              <li>💖 <b>Tinder:</b> comando criado, ainda em beta, mas já dá pra testar!</li>
+              <li>😂 <b>Meme:</b> agora puxa imagens e vídeos de qualquer servidor.</li>
+              <li>⏱ <b>Uptime:</b> arrumado e com visual refeito.</li>
+              <li>👤 <b>Userinfo:</b> agora mostra os últimos 10 servidores em que o usuário entrou.</li>
+              <li>🖼 <b>Banner:</b> agora consegue puxar o banner do usuário pelo ID.</li>
+              <li>🃏 <b>Novo comando 21/Blackjack:</b> teste sua sorte no mini-cassino do servidor!</li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- POR QUE -->
+    <section class="section section-tight">
+      <div class="container">
+        <div class="why reveal">
+          <div>
+            <p class="eyebrow">✦ Por que a Tsumiki?</p>
+            <h2>Feito com carinho, por uma criadora brasileira</h2>
+          </div>
+          <ul class="why-list">
+            <li>Desenvolvido por uma criadora brasileira.</li>
+            <li>Foco em diversão e comunidade.</li>
+            <li>Sistemas próprios em constante evolução.</li>
+            <li>Comandos que você dificilmente encontra reunidos em outro bot.</li>
+            <li>Recursos inspirados na cultura gamer e otaku.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="section section-tight">
+      <div class="container">
+        <div class="contact reveal">
+          <img src="../assets/projetos/tsumiki-bot.jpg" alt="" class="cta-avatar" width="735" height="735">
+          <h2>Leve a Tsumiki pro seu servidor</h2>
+          <p>Já são 23 servidores se divertindo com ela. O seu pode ser o próximo! 🌸</p>
+          <div class="socials">
+            <a class="btn btn-primary" href="https://discord.com/api/oauth2/authorize?client_id=826428423219052584&amp;permissions=27648&amp;scope=bot%20applications.commands" target="_blank" rel="noopener">Adicionar ao Discord</a>
+            <a class="btn btn-ghost" href="https://top.gg/bot/826428423219052584" target="_blank" rel="noopener">Avaliar no Top.gg</a>
+            <a class="btn btn-ghost" href="https://discord.gg/G4x75J5" target="_blank" rel="noopener">Servidor de suporte</a>
+          </div>
+          <p class="legal-links"><a href="tsumiki-bot-privacidade.html">🛡 Política de Privacidade</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Lunar Neko · Games e Software</p>
+    <p class="footer-small"><a href="tsumiki-bot-privacidade.html">Política de Privacidade do Tsumiki Bot</a> · <a href="../index.html">Voltar para o início</a></p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
