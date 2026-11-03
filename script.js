@@ -278,6 +278,26 @@ document.addEventListener("error", e => {
   if (el.tagName === "IMG" && el.dataset.fallback && el.src !== el.dataset.fallback) el.src = el.dataset.fallback;
 }, true);
 
+// contador de visitas (Abacus, gratuito): conta uma vez por sessão do navegador e mostra no rodapé
+function setupVisitCounter() {
+  const footer = document.querySelector(".footer");
+  if (!footer) return;
+  let counted = false;
+  try { counted = sessionStorage.getItem("ln-visita") === "1"; } catch (e) {}
+  const base = "https://abacus.jasoncameron.dev/";
+  fetch(base + (counted ? "get" : "hit") + "/lunarneko-site/visitas")
+    .then(r => r.ok ? r.json() : Promise.reject())
+    .then(d => {
+      if (typeof d.value !== "number") return;
+      try { sessionStorage.setItem("ln-visita", "1"); } catch (e) {}
+      const p = document.createElement("p");
+      p.className = "footer-small visit-counter";
+      p.innerHTML = "✦ <strong>" + d.value.toLocaleString("pt-BR") + "</strong> visitas";
+      footer.appendChild(p);
+    })
+    .catch(() => {});
+}
+
 const yearEl = document.getElementById("year");
 if (yearEl) yearEl.textContent = new Date().getFullYear();
 renderProjects();
@@ -285,4 +305,5 @@ setupFilters();
 setupNav();
 setupReveal();
 setupGallery();
+setupVisitCounter();
 startSky();

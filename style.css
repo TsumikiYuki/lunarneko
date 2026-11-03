@@ -275,6 +275,7 @@ a.project:hover .project-cover img:not(.placeholder) { transform: scale(1.05); }
 /* rodapé */
 .footer { text-align: center; padding: 40px 20px 50px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--card-border); }
 .footer-small { font-size: 13px; opacity: .7; margin-top: 4px; }
+.visit-counter strong { color: var(--pink); font-weight: 600; }
 
 /* animações */
 .reveal { opacity: 0; transform: translateY(24px); transition: opacity .8s ease, transform .8s ease; }
