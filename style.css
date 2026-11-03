@@ -354,6 +354,8 @@ a.project:hover .project-cover img:not(.placeholder) { transform: scale(1.05); }
 .feature-icon { display: grid; place-items: center; width: 52px; height: 52px; border-radius: 14px; font-size: 26px; background: linear-gradient(140deg, rgba(255, 179, 225, .18), rgba(181, 124, 255, .18)); margin-bottom: 18px; }
 .feature h3 { font-size: 19px; margin-bottom: 8px; }
 .feature p { color: var(--muted); font-size: 15px; }
+.features-extra { margin: 26px auto 0; max-width: 760px; text-align: center; color: var(--muted); font-size: 15px; }
+.features-extra strong { color: var(--pink); }
 
 code { font-family: ui-monospace, "Cascadia Code", Consolas, monospace; color: var(--pink-soft); background: rgba(255, 143, 208, .1); padding: 2px 8px; border-radius: 6px; font-size: .92em; }
 .commands { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
